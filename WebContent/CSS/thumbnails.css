@@ -1,0 +1,87 @@
+.thumbnails{
+    width: 225px;
+    height: 225px;
+    -webkit-transition: all 0.5s ease;
+  	-moz-transition: all 0.5s ease; 
+  	-o-transition: all 0.5s ease; 
+  	-ms-transition: all 0.5s ease; 
+  	transition: all 0.5s ease;
+}
+.element:hover img ,.element1:hover img,.element2:hover img ,.element3:hover img,.element4:hover img ,.element5:hover img {
+     -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25); 
+    -ms-transform:scale(1.25); 
+    -o-transform:scale(1.25); 
+     transform:scale(1.25);
+     
+     
+}
+#corpo{
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+#corpo div{
+    cursor: pointer;
+    display: inline-block;
+    margin: 2em;
+    text-align: center;
+    font-family: 'Comic Sans MS',cursive,sans-serif; 
+}
+#corpo div div{
+    margin: 0;
+    display: block;
+}
+#corpo div.prezzo{
+    margin: 0;
+    display: block;
+    color: #78ACD9;
+    border-bottom:solid;
+    border-bottom-width: thin;
+    border-top: solid;
+    border-top-width: thin;
+    border-color: #E4E4E4;
+    font-weight: 500;
+}
+.hidden{
+    text-align: center;
+}
+.button{
+    margin-left: 37.9845px;
+    margin-right: 37.9845px;
+    position: absolute;
+    display: none;
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #006599;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    outline: 0;
+    transition: all .01s linear;
+    margin-top: 6px;
+    
+}
+.button a{
+    
+    text-decoration: none;
+    color:white;
+}
+#corpo div:hover>div.hidden button{
+    display: block;
+} 
+button.button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+.element,.element1,.element2,.element3,.element4,.element5{
+    width:225px;
+    height:313px;
+}
+#loadMore {
+	width:70px;
+	height:70px;
+	display:block;
+	margin-top:-20px;
+	margin-bottom:20px;
+}

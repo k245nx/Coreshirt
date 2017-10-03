@@ -1,0 +1,131 @@
+.help{
+  margin-top: 50px;
+    margin-left: 130px;
+    background-color: #E6E6E6;
+    padding 0.3em, 0.5em;
+    line-height: 1.8;
+    text-transform: uppercase;
+    width:1000px;
+    border-radius: 4px;
+    }
+
+.about{
+    
+    margin-left: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+
+.answers{
+    
+    text-align: left;
+    margin-left: 132px;
+    width:1000px;
+    margin-top: 70px;
+    }
+
+.titolo h4{
+    font-weight: bold;
+    margin-top: -10px;
+    color: red;
+}
+
+@media (min-width: 296px) and (max-width: 400px) {
+    
+    .help {width:222px;}
+    .answers { width: 222px;}
+    }
+
+@media (min-width: 401px) and (max-width: 460px) {
+    
+    .help {width: 260px;}
+    .answers { width: 260px;}
+    }
+
+@media (min-width: 461px) and (max-width: 500px) {
+    
+    .help {width: 280px;}
+    .answers { width: 280px;}
+    }
+
+@media (min-width: 501px) and (max-width: 570px) {
+    
+    .help {width: 355px;}
+    .answers { width: 355px;}
+    }
+
+@media (min-width: 571px) and (max-width: 630px) {
+    
+    .help {width: 410px;}
+    .answers { width:410px;}
+    }
+
+@media (min-width: 631px) and (max-width: 670px) {
+    
+    .help {width: 460px;}
+    .answers { width:460px;}
+    }
+
+@media (min-width: 670px) and (max-width: 710px) {
+    
+    .help {width: 480px;}
+    .answers { width:480px;}
+    }
+
+@media (min-width: 710px) and (max-width: 750px) {
+    
+    .help {width: 550px;}
+    .answers { width: 550px;}
+    }
+
+@media (min-width: 750px) and (max-width: 800px) {
+    
+    .help {width: 580px;}
+    .answers { width: 580px;}
+    }
+
+@media (min-width: 801px) and (max-width: 825px) {
+
+    .help {width:650px;}
+    .answers { width: 650px;}
+}
+
+@media (min-width: 901px) and (max-width: 950px) {
+ 
+    .help {width: 670px;}
+    .answers { width: 670px;}
+    }
+
+@media (min-width: 825px) and (max-width: 900px) {
+
+    .help {width:670px;}
+    .answers { width: 670px;}
+}
+
+@media (min-width: 951px) and (max-width: 980px) {
+
+    .help {width:670px;}
+    .answers { width: 670px;}
+}
+
+@media (min-width: 981px) and (max-width: 1151px) {
+
+    .help {width:800px;}
+    .answers { width: 800px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

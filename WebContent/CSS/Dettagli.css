@@ -1,0 +1,254 @@
+#veil {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 240, 0.5);
+}
+
+#popup{
+	height: 50px;
+	min-width: 250px;
+	width: auto;
+	float:left;
+	text-align: center;
+	line-height: 3;
+	position:absolute;
+	margin-top: 300px;
+	margin-left: 40%;
+	border-radius: 20px;
+	background-attachment: fixed;
+	background-color: #545454;
+	color: #ffffff;
+}
+.maglia, .scegli-colore{
+    margin-top: 20px;
+    display:inline-block;
+}
+.container-di-tutto{
+      text-align: center;
+      height: 472px;
+}
+.maglia{
+    width: 530px;
+    height: 350px;
+    background-color: black;
+}
+.maglia img{
+   width: 530px;
+   height: 350px;   
+}
+input[type=radio]:not(old){
+  width: 2em;
+  height: 2em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+input[type=radio]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -2.5em;
+  line-height  : 1.5em;
+}
+input[type=radio]:not(old) + label > span{
+  display          : inline-block;
+  width            : 2em;
+  height           : 2em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0.25em;
+  background       : rgb(224,224,224);
+  background-image :    -moz-linear-gradient(rgb(250,250,250),rgb(250,250,250));
+  background-image :     -ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :      -o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :         linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  vertical-align   : bottom;
+}
+
+.colore:not(old):checked +  label > span > span{
+  display          : block;
+  width            : 1.64em;
+  height           : 1.655em;
+  margin           : 0.125em;
+  border           : 0.0655em solid rgb(240,240,240);
+  border-radius    : 0.125em;
+  }
+
+.maglia>.design-left
+{
+    position: absolute;
+    width: 175px;
+    height: 235px;
+    margin-top: -265px;
+    margin-left: -200px;
+    
+}
+.maglia>.design-right
+{
+    position: absolute;
+    width: 150px;
+    height: 203px;
+    margin-top: -240px;
+    margin-left: 60px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)  {
+	.maglia>.design-left
+{
+    position: absolute;
+    width: 175px;
+    height: 235px;
+    margin-top: 80px;
+    margin-left: -460px;
+    
+}
+.maglia>.design-right
+{
+    position: absolute;
+    width: 150px;
+    height: 203px;
+    margin-top: 100px;
+    margin-left: -205px;
+}
+	
+}
+
+@-moz-document url-prefix(){
+	.maglia>.design-left {
+	position: absolute;
+    width: 175px;
+    height: 235px;
+    margin-top: 80px;
+    margin-left: -460px;
+    }
+}
+
+.taglia:not(old):checked + label > span{
+  border: 0.025em solid #000;
+}
+
+.details p{
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 4px 4px 4px 1.4px;
+}
+.descriptor{
+    text-align: left;
+}
+.scegli-colore{
+    height: 350px;
+    vertical-align: top;
+}
+.dettagli{
+    margin-top: 100px;
+}
+select{
+    font-size: 14pt;
+    border-radius: 6px;
+}
+select:focus{
+    outline: none;
+}
+.numpezzi{
+    text-align:left;
+}
+.price-hidden{
+    display: none;
+}
+.price label{
+    font-size: 15pt;
+    color: #000099;
+}
+.price{
+    margin-top: 10px;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: thin;
+    border-color: #E4E4E4;
+    margin-bottom: 10px;
+}
+.submit-button img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: -13px;
+}
+.submit{
+    height: 40px;
+    font-size: 16.5pt;
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #006599;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    transition: all .01s linear;
+}
+.submit:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+.submit-button div,.submit-button img{
+    display: inline-block;
+}
+
+.maglietta{
+    
+    vertical-align: middle;
+    background-color: black;
+    width: 490px;
+    height: 490px;        
+    }
+.dettagli2{
+    margin-left: -20px;
+    margin-top: 60px;
+    align-content: center;
+    text-align: center;
+}
+
+
+ #sideContainerdettagli div.maglietta1,#sideContainerdettagli div.block{
+    display: inline;
+    align-content: center;
+}
+
+#sideContainerdettagli div.maglietta1{
+    
+    border:  1px solid black;
+}
+
+
+
+.maglietta{
+    margin-left: -410px;
+}
+.cambia-colore {
+    position: absolute;
+    border-color: black;
+    border: 1px solid black;
+    align-content: center;
+    margin-left: 10px;
+    
+    
+}
+#sideContainerdettagli div.p,#sideContainerdettagli div.cambiacolore{
+    display: block;
+}
+.p{
+    width: 100px;
+}
+.nome-maglia{
+	font-size:18pt;
+	margin-bottom:-10px;
+}
+p.par{
+	font-size:13pt;
+	text-align:left;
+}

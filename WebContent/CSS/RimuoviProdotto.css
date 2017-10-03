@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+ul#Lista {
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;    
+  text-decoration: none;
+  font-size: 15pt;
+  margin-top: -1px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow:0px 5px 10px -2px #888888;
+  max-width: 1440px;
+  min-width: 0px; 
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  }
+  
+  #Lista li{
+    display:inline-block;
+    padding: 5px 12px; 
+    margin-right: -6px;
+    border-left: 2px solid black;
+    margin-bottom: -0.5px;
+    }
+     #Lista li:first-child {
+    border-left: none;
+    margin-left: -60px;
+    }
+#Lista li a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#Lista li:hover{
+    background-color:#000000;
+    color: #ffffff;
+}
+#Lista li:hover a{
+    color: #ffffff;
+}
+#Lista li a:hover{
+    color: #FFFFFF
+}
+#ArticleInserisciDipendente
+{
+	border: 2px solid #191919;
+	text-align: center;
+	width: 1344px;
+	margin-left:-154px;
+	margin-bottom: 30px;
+}
+
+#Amministrazione{
+	margin:0 auto;
+	margin-top:10px;
+	border: 2px solid black;
+	width: 20%;
+	font-size: 16pt;
+	background-color: #949498;
+	margin-bottom: 10px;
+}
+
+#sezione2{
+	border: 2px solid black;
+	width: 20%;
+	margin-left: 100px;
+	font-size: 25px;
+	background-color: #949498;
+	}
+#sezione{
+	padding-bottom: 20px;
+	
+	}
+	
+#form{
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	padding: 10px 10px 0px 10px;
+}
+#rimuovi{
+	margin-bottom: 10px;
+}
+
+{
+#form,#anteprima{
+	display: inline-block;
+}
+
+#anteprima{
+	width: 325px;
+	height: 325px;
+	margin-bottom: -25px;
+}

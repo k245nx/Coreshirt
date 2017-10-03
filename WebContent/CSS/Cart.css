@@ -1,0 +1,106 @@
+.tabella {
+	width: 750px;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:50px;
+	border-collapse:collapse;
+	background-color:#e2e2e2;
+	border: 2px solid #d4d4d4;
+	border-top:1px solid #d4d4d4;
+	vertical-align: top;
+}
+.maglietta{
+	height:112.5px;
+	width:112.5px;
+}
+.minghie{
+	font-size:25px;
+	margin-left:-940px;
+	margin-top:30px;
+	
+}
+#rimozione a{
+	color:red;
+	text-decoration: none;
+}
+#prezzo{
+	color: #000099;
+}	
+.tabella tr:first-child{
+	background-color:#e2e2e2;
+}
+.tabella tr{
+	border-spacing:120px;
+	background-color:white;
+	margin-bottom:100px;
+}
+
+.colonna{
+	border-bottom: 2px solid #d4d4d4;
+	}
+	
+.tabella, #subtotal{
+	
+	display:inline-table;
+}
+#subtotal{
+	width:280px;
+	height:250px;
+	border: 2px solid #d4d4d4;
+	border-top:1px solid #d4d4d4;
+	border-collapse:collapse;
+	text-align:left;
+}
+#contenitore{
+	margin:0 auto;
+	text-align:center;
+}
+
+.subtotale-header{
+	background-color:#e2e2e2;
+	border-collapse: collapse;
+	height:20px;
+	text-align:center;
+}
+
+.label, .labelfriend{
+	display:inline-table;
+}
+
+.labelfriend, .labelfriend2{
+	margin-left:30px;
+}
+.labelfreind2{
+	color: #000099;
+}
+.labelfriend{
+	margin-left:53px;
+	color: red;
+}
+#prima-riga{
+	border-bottom:1px solid #d4d4d4;
+}
+.label2, .labelfriend2{
+	display:inline-table;
+}
+.creditcard{
+	width:275px;
+}
+.conferma{
+	width:210px;
+	height:40px;
+	border: 1px solid #0073b0;
+	text-align:center;
+	line-height:37px;
+	border-radius:10px;
+	margin:0 auto;
+	background-color:#0087cc;
+	color:white;
+}
+.pezzi, .taglia{
+	font-size: 13pt;
+	border-radius: 6px;
+}
+.pezzi, .taglia:focus{
+	outline: none;
+}

@@ -1,0 +1,42 @@
+
+article#articolo 
+{ max-width: 1040px;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+div#Banner2 figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0;
+    animation: 15s slide infinite;
+    }
+div#Banner2 { 
+    width: 100%;
+    overflow: hidden;
+    box-shadow:0px 10px 10px #888888;
+}
+div#Banner2 figure img { width: 20%; float:none;}
+@keyframes slide {
+    0% { left: 0%;}
+    20% { left: 0%;}
+    25% { left: -100%;}
+    45% { left: -100%;}
+    50% { left: -200%;}
+    70% { left: -200%;}
+    75% { left: -300%;}
+    95% { left: -300%;}
+    100% { left: -400%;}
+
+    }
+
+#wrapper{
+	text-align:center;
+}
+
+
+

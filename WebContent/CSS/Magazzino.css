@@ -1,0 +1,21 @@
+#containerB div div{
+	display: inline-block;
+	margin: 12px 12px;
+	border: 2px solid #000000;
+	padding: 1px 1px;
+	background-color: #d4d4d4;
+	cursor: pointer;
+}
+#containerB{
+	margin: 0 auto;
+}
+
+#logout{
+	width:60px;
+	height:30px;
+	background-color: #d4d4d4;
+	border-radius:10%;
+	border:2px solid #a6a6a6;
+	margin-left:340px;
+	margin-bottom: 10px;
+}

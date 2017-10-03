@@ -1,0 +1,300 @@
+body {
+   margin: 0 auto;
+   background: #fff;
+   background-size: auto auto;
+   font-family: 'Comic Sans MS',cursive,sans-serif;
+}
+article#articolo1 
+{ max-width: auto;
+margin: 0 auto;
+}
+/*barra di navigazione*/
+ul#menu {
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;    
+  text-decoration: none;
+  font-size: 15pt;
+  margin-top: -45px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow:0px 5px 10px -2px #888888;
+  max-width: 1440px;
+  min-width: 0px; 
+}
+#menu li{
+    display:inline-block;
+    padding: 5px 12px;  
+}
+#menu li a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#menu li:hover{
+    background-color:#000000;
+    color: #ffffff;
+}
+#menu li:hover a{
+    color: #ffffff;
+}
+#menu li a:hover{
+    color: #FFFFFF
+}
+/*banner e logo*/
+#banner img{
+    display: block;
+    margin: 0 auto;
+    
+}
+.Banner {  
+    width: 648px;
+    height: 140px;
+}
+.core {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:  -220px;
+    top: -7.2em;  
+}
+.core /*animation*/ {
+    animation-name: stretch2;
+    animation-duration: 2.0s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+}    
+@keyframes stretch2 {
+  0% {  
+    transform: scale(0.7);  
+  }
+  50% {
+  }
+  100% {   
+    transform: scale(1.26);
+  }
+}
+
+#aside_bar {
+    margin-bottom: 10px;
+    background: #F6F6F6;
+    height: 108px;
+    margin-top: -15px;
+    clear: both;
+    display: flex;
+   /* max-width: 1080px;*/
+    text-align: center;
+    font-weight: 600;
+    COLOR: #808080;
+}
+
+
+
+aside span{
+    
+    flex: 1;
+}
+#aside_bar span div{
+   margin-top: -2px; 
+}
+/*footer*/
+footer{
+    clear: both;
+    background-color: #444444;
+    color: #ffffff;}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:active{
+    color: #0000ff;
+     }
+div.row{
+  max-width: 1440px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;    
+}
+div.row div{
+    flex: 1;
+    -webkit-flex: 1;
+    margin: 0 auto;
+}
+div.CreditCard img{
+    width: 100%;
+    margin-top: 1em;
+    margin-left: -1em;
+}
+.menu-container ul{
+    list-style: none;
+    list-style-type: none;
+    list-style-position: center;
+    list-style-image: none;
+}
+div.menu-container ul li,div.menu-container ul li a{
+    display: block;
+    text-decoration: none;
+    margin-left: -20px;
+}
+div.menu-container ul li a:hover{
+    text-decoration: underline;
+}
+/*#menu li>ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  float:left;
+  margin-left: -12px;
+  margin-top: 5px;
+  list-style: none;
+    text-align: left;
+}
+#menu li ul li{
+    display: block;
+    padding: 0;
+}
+#menu li:hover ul{
+    background-color: #FCFCFC;
+    color: black;
+    display: block;
+    padding: 0;
+}
+#menu ul li:hover{
+    background-color: #000000;
+    color: aliceblue;
+}*/
+#menu li:last-child a:hover,#menu li:last-child:hover,#menu li:first-child a:hover,#menu li:first-child:hover {
+    background-color: #ffffff;
+}
+#menu li:last-child a:hover span{
+    
+    background-color: #000000;
+}
+
+
+.cart {
+    width: 30px;
+    height: 30px;
+}
+
+.home {
+    width: 30px;
+    height: 30px;
+}
+
+    #wrapper         {width: 0 auto;margin: 0 auto;}
+    #articolo1       {width: 0 auto; }
+    #corpo           {width: 0 auto;}
+    footer           {width: 0 auto;}
+
+@media (min-width: 801px) and (max-width: 980px) {
+ 
+    /* Structure 801 to 980 */
+    #wrapper        {width: 799px;margin: 0 auto;}
+    #articolo1         {width: 799px;}
+    #corpo           {width: 799px;}
+    #footer         {width: 799px;}
+    .promesse       {font-size: 12.50; font-weight: 600;}
+    .core           { left:  -220px;top: -7.2em;  }
+
+
+}
+
+@media (min-width: 980px) and (max-width: 1017px) {
+ 
+    
+    .promesse       {font-size: 11pt; font-weight: 600;}
+    
+ 
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+ 
+    /* Structure 768 to 800 */
+    #wrapper        {width: 768px;margin: 0 auto;}
+    #articolo1         {width: 768px;}
+    #corpo           {width: 768px;}
+    #footer         {width: 768px;}
+}
+
+@media  (max-width: 767px) {
+ 
+    /* Structure max 767 */
+    #wrapper        {width: 0  auto;margin: 0 auto;}
+    #articolo1         {width: 0 auto;}
+    #corpo           {width: 700px;}
+    #footer         {width: 700px;}
+    #menu           {width: 100%;}
+    
+}
+    
+@media  (max-width: 300px) {
+ 
+    /* Structure 768 to 800 */
+    #wrapper        {width: 0  auto;margin: 0 auto;}
+    #articolo1         {width: 0 auto;}
+    #corpo           {width: 200px;}
+    #footer         {width: 200px;}
+    #menu           {width: 100%;}
+    .promesse       {font-size: 5pt; font-weight: 600;}
+    
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    
+    .core           { left:  -220px;top: -7.2em;  }
+    
+}
+    @media (min-width: 100px) and (max-width: 500px) {
+        .core           { left:  -220px;top: -7.2em;  }
+        #menu li:first-child {display:inline-block; font-size:10px;}
+        #menu li:last-child {display:inline-block; font-size:10px;}
+}
+    @media (min-width: 531px) and (max-width: 600px) {
+        #menu li        {font-size: 12px;}
+}
+    
+    @media (min-width: 100px) and (max-width: 531px) {
+        #menu li        {font-size: 8px;}
+}
+    @media (min-width: 100px) and (max-width: 500px) {
+        .core           { left:  -220px;top: -7.2em;  }
+        #menu li        {display:none; width: 20%;font-size:10px;}
+        .promesse       {font-size: 7pt; font-weight: 600;}
+}
+@media (min-width: 100px) and (max-width: 500px) {
+    .promesse       {font-size: 7pt; font-weight: 600;}
+}
+
+@media (min-width: 601px) and (max-width: 614px) {
+     #menu li        {font-size: 13px;}
+}
+
+@media (min-width: 614px) and (max-width: 631px) {
+     #menu li        {font-size: 15px;}
+}
+
+@media (min-width: 631px) and (max-width: 701px) {
+     #menu li        {font-size: 15px;}
+}
+
+@media (min-width: 532px) and (max-width: 563px) {
+     #menu li        {font-size: 10px;}
+}
+
+@media (min-width: 501px) and (max-width: 980px) {
+    .promesse       {font-size: 10pt; font-weight: 600;}
+}
+
+
+
+

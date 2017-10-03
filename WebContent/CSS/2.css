@@ -1,0 +1,121 @@
+/*menu*/
+ul#menu {
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;    
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Comic Sans MS',cursive,sans-serif;
+  margin-top: -45px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+    text-transform: uppercase;
+}
+#menu li{
+    display:inline-block;
+    padding: 5px 12px;
+    
+}
+
+div#Banner2 figure {
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0;
+    animation: 15s slide infinite;
+    }
+div#Banner2 { overflow: hidden;}
+div#Banner2 figure img { width: 50%; float: left;}
+@keyframes slide {
+    0% { left: 0%;}
+    20% { left: 0%;}
+    25% { left: -100%;}
+    45% { left: -100%;}
+    50% { left: -200%;}
+    70% { left: -200%;}
+    75% { left: -300%;}
+    95% { left: -300%;}
+    100% { left: -400%;}
+
+}
+
+
+
+#menu li>ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  float:left;
+  margin-left: -12px;
+  margin-top: 5px;
+  list-style: none;
+    text-align: left;
+}
+#menu li ul li{
+    display: block;
+    padding: 0;
+}
+#menu li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#menu li:hover ul{
+    background-color: #FCFCFC;
+    color: black;
+    display: block;
+    padding: 0;
+}
+#menu li:hover{
+    background-color:#000000;
+    color: #ffffff;
+}
+#menu ul li:hover{
+    background-color: #000000;
+    color: aliceblue;
+}
+/*banner e logo*/
+#banner img{
+    display: block;
+    margin: 0 auto;
+}
+.core {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:  -235px;
+    top: -140px;
+    
+}
+.core /*animation*/ {
+    animation-name: stretch2;
+    animation-duration: 2.0s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+}    
+@keyframes stretch2 {
+  0% {  
+    transform: scale(0.7);  
+  }
+  50% {
+  }
+  100% {   
+    transform: scale(1.26);
+  }
+}
+
+
