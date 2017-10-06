@@ -115,7 +115,7 @@ public class Controller extends HttpServlet {
 				    	ArrayList<TShirt> ts=new ManageTshirt().getTshirts();
 						int quantita=ts.get(ts.lastIndexOf(t)).getquantita();
 						if(quantita<(quan+quantity)){
-							request.getSession().setAttribute("aggiunto", "Articolo non aggiunto disponibilità insufficiente");
+							request.getSession().setAttribute("aggiunto", "Articolo non aggiunto disponibilitÃ  insufficiente");
 						}
 						else{
 							cart.addItem(t);
@@ -126,7 +126,7 @@ public class Controller extends HttpServlet {
 				    	ArrayList<TShirt> ts=new ManageTshirt().getTshirts();
 						int quantita=ts.get(ts.lastIndexOf(t)).getquantita();
 						if(quantita<quantity){
-							request.getSession().setAttribute("aggiunto", "Articolo non aggiunto disponibilità insufficiente");
+							request.getSession().setAttribute("aggiunto", "Articolo non aggiunto disponibilitÃ  insufficiente");
 						}
 						else{
 							cart.addItem(t);
@@ -201,12 +201,12 @@ public class Controller extends HttpServlet {
 					String title=request.getParameter("title");
 					String categoria=request.getParameter("categoria");
 					String num=model.insert(title,categoria);
-					Part filePart = request.getPart("upfile"); // il nome del campo input di tipo file
-		            String fileName = filePart.getSubmittedFileName(); // fileName è un oggetto di tipo String
-		            InputStream is = filePart.getInputStream(); // is è un oggetto di tipo InputStream
-		            String fileExt = fileName.substring(fileName.lastIndexOf(".")); // fileExt è un oggetto di tipo String
+					Part filePart = request.getPart("upfile"); 
+		            String fileName = filePart.getSubmittedFileName(); 
+		            InputStream is = filePart.getInputStream(); //
+		            String fileExt = fileName.substring(fileName.lastIndexOf(".")); 
 		            String destinationPath = getServletContext().getInitParameter("filepath") +num+fileExt;
-		            OutputStream os = new FileOutputStream(destinationPath); // oggetto di tipo OutputStream
+		            OutputStream os = new FileOutputStream(destinationPath);
 		            IOUtils.copy(is, os);
 		            is.close();
 		            os.close();
